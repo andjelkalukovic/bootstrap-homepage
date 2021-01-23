@@ -1,3 +1,7 @@
 body {
     font-family: 'Spartan', sans-serif;
 }
+
+[clas*="col-"] {
+    padding: 1rem;
+}
