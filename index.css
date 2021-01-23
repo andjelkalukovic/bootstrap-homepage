@@ -2,6 +2,6 @@ body {
     font-family: 'Spartan', sans-serif;
 }
 
-[clas*="col-"] {
+[class*="col-"] {
     padding: 1rem;
 }
