@@ -6,47 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Test zadatak</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Google Font Spartan-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a34088c9b7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!--Navigation-->
-    <nav class="navbar navbar-expand-md sticky-top">
-        <div class="container-fluid">
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-light navbar-expand-lg">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><img src="assets/dark.svg" alt="dark" title="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-responsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbar-responsive">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a href="index.html" class="nav-link active">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Testimonials</a></li>
+                    <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li class="nav-item"><a href="#download-app" class="nav-link">Download</a></li>
+                </ul>
+            </div>
+
+            <!-- <div class="navbar-buttons">
+                <a href="#" class="btn">Free Download</a>
+                <a href="#" class="btn">Upgrade to Pro <i class="fas fa-rocket"></i></a>
+            </div> -->
         </div>
+
     </nav>
 
     <!--Simple & Reliable-->
-    <div class="container-fluid padding">
-        <div class="row text-center">
-            <div class="col-12">
-                <h1 class="display-4">Simple & Reliable</h1>
+    <div class="container py-5">
+        <div class="row justify-content-center text-center">
+            <div class="col-12 mb-md-7">
+                <h1 class="fw-bold mb-3 display-3">Simple & Reliable.</h1>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+                <p class="lead">Simpler remembers your important details, so you can fill carts, not forms. And
+                    everything is ecrypted so you can speed safely through checkout.</p>
             </div>
             <div class="col-12">
-                <p>Simpler remembers your important details, so you can fill carts, not forms. And everything is
-                    ecrypted so you can speed safely through checkout.</p>
-            </div>
-            <div class="col-12">
-                <a href="#" class="btn btn-primary"><i class="fab fa-apple"></i>Available on App Store</a>
-                <a href="#" class="btn btn-primary"><i class="fab fa-google-play"></i>Available on Google Play</a>
+                <a href="#" class="btn" id="my-btn"><i class="fab fa-apple fa-2x mx-2"></i><span>Available on App
+                        Store</span></a>
+                <a href="#" class="btn" id="my-btn"><i class="fab fa-google-play fa-2x mx-2"></i><span>Available on
+                        Google Play</span></a>
             </div>
         </div>
     </div>
 
     <!--Baner-->
-    <div class="col-12">
-        <img src="assets/scene.svg" alt="scene" class="img-fluid">
+    <div class="container col-12 col-md-10 justify-content-center py-5">
+        <img src="assets/scene.svg" alt="scene" class="img-responsive">
     </div>
 
     <!--Pay icons-->
-    <div class="container-fluid padding">
+    <div class="container py-5">
         <div class="row text-center">
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <i class="fas fa-money-bill-wave"></i>
@@ -69,7 +96,7 @@
     </div>
 
     <!--Better way-->
-    <div class="container-fluid padding">
+    <div class="container py-5">
         <div class="row text-center">
             <div class="col-12">
                 <h1 class="display-4">Better in every way</h1>
@@ -82,7 +109,7 @@
     </div>
 
     <!--Thoughtful way-->
-    <div class="container-fluid padding">
+    <div class="container py-5">
         <div class="row">
             <div class="col-lg-6">
                 <h2>A thoughtful way to pay</h2>
@@ -91,20 +118,20 @@
                 <p>Now, you can offset the carbon emissions produced by your deliveries-for free. All you have to do is
                     check out with Shop Pay, one of the first carbon - neutral way to pay.</p>
                 <br>
-                <a href="#" class="btn btn-primary">Learn More <i class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="btn" id="my-btn">Learn More <i class="fas fa-external-link-alt"></i></a>
             </div>
 
             <div class="col-lg-6">
-                <img src="assets/scene-3.svg" alt="scene3" class="img-fluid">
+                <img src="assets/scene-3.svg" alt="scene3" class="img">
             </div>
         </div>
     </div>
 
     <!--Get it-->
-    <div class="container-fluid padding">
+    <div class="container py-5">
         <div class="row">
             <div class="col-lg-6">
-                <img src="assets/scene-2.svg" alt="scene2" class="img-fluid small">
+                <img src="assets/scene-2.svg" alt="scene2" class="img">
             </div>
 
             <div class="col-lg-6">
@@ -115,14 +142,14 @@
                 <p>You can set up automated ranking reports to be sent to your email address, so you'll never forget to
                     check your ranking progress.</p>
                 <br>
-                <a href="#" class="btn btn-primary">Learn More <i class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="btn" id="my-btn">Learn More <i class="fas fa-external-link-alt"></i></a>
             </div>
         </div>
     </div>
 
     <!--Numbers-->
-    <div class="container-fluid padding">
-        <div class="row padding">
+    <div class="container py-5">
+        <div class="row py-5">
             <div class="col-md-4">
                 <div class="card">
                     <h4 class="card-title">98%</h4>
@@ -147,25 +174,25 @@
     </div>
 
     <!--Features-->
-    <div class="container-fluid padding">
+    <div class="container py-5">
         <div class="row text-center">
             <div class="col-12">
                 <h5>We're proudly featured by</h5>
             </div>
             <div class="col-lg-12">
-                <i class="fab fa-stripe"></i>
-                <i class="fab fa-digg"></i>
-                <i class="fab fa-fedex"></i>
-                <i class="fab fa-ember"></i>
-                <i class="fab fa-d-and-d-beyond"></i>
-                <i class="fab fa-angrycreative"></i>
+                <i class="fab fa-stripe features"></i>
+                <i class="fab fa-digg features"></i>
+                <i class="fab fa-fedex features"></i>
+                <i class="fab fa-ember features"></i>
+                <i class="fab fa-d-and-d-beyond features"></i>
+                <i class="fab fa-angrycreative features"></i>
             </div>
 
         </div>
     </div>
 
     <!--Customers text-->
-    <div class="container-fluid padding">
+    <div class="container py-5">
         <div class="row text-center">
             <div class="col-12">
                 <h1 class="display-4">Customers love it</h1>
@@ -179,7 +206,7 @@
 
     <!--Customers stories-->
     <!--FAQ-->
-    <div class="container-fluid padding">
+    <div class="container py-5" id="faq">
         <div class="row text-center">
             <div class="col-12">
                 <h1 class="display-4">Fact & Questions</h1>
@@ -192,39 +219,43 @@
     </div>
 
     <!--Download app-->
-    <div class="container-fluid padding">
-        <div class="row">
-            <div class="col-lg-6">
-                <h5>Download App</h5>
-                <h2>Get started in seconds</h2>
-                <p>Quickly connect to tools and services such as Google Analytics, Intercom or Github to track, measure
-                    and optimize performance.</p>
-                <br>
+    <div class="container-fluid py-5" id="download-app">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h5>Download App</h5>
+                    <h2>Get started in seconds</h2>
+                    <p>Quickly connect to tools and services such as Google Analytics, Intercom or Github to track,
+                        measure
+                        and optimize performance.</p>
+                    <br>
 
-                <div class="col-12">
-                    <a href="#" class="btn btn-primary"><i class="fab fa-apple"></i>Available on App Store</a>
-                    <a href="#" class="btn btn-primary"><i class="fab fa-google-play"></i>Available on Google Play</a>
+                    <div class="col-12">
+                        <a href="#" class="btn" id="my-btn"><i class="fab fa-apple"></i>Available on App Store</a>
+                        <a href="#" class="btn" id="my-btn"><i class="fab fa-google-play"></i>Available on Google
+                            Play</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-lg-6">
-                <img src="assets/scene-3.svg" alt="scene3" class="img-fluid">
+                <div class="col-lg-6">
+                    <img src="assets/scene-3.svg" alt="scene3">
+                </div>
             </div>
         </div>
     </div>
 
     <!--Footer-->
     <footer>
-        <div class="container-fluid padding">
+        <div class="container pt-5">
             <div class="row">
                 <div class="col-md-4">
                     <p>Swipe is a beautiful and free one page Bootstrap 5 Template created to showcase your awesome
                         mobile app.</p>
                     <div class="social">
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-twitter fa-1.8x social"></i></a>
+                        <a href="#"><i class="fab fa-facebook fa-1.8x social"></i></a>
+                        <a href="#"><i class="fab fa-github fa-1.8x social"></i></a>
+                        <a href="#"><i class="fab fa-dribbble fa-1.8x social"></i></a>
                     </div>
                 </div>
 
@@ -238,13 +269,15 @@
 
                 <div class="col-md-4">
                     <h5>Subscribe</h5>
-                    <a href="#" class="btn btn-primary">Subscribe</a>
+                    <input type="email" placeholder="example@company.com" class="col-12">
+                    <a href="#" class="btn col-12" id="my-btn">Subscribe</a>
                     <p>No spam. Pinky swear.</p>
                 </div>
 
                 <div class="col-12 text-center">
                     <hr>
-                    <p>Copyright &copy; Themesberg 2019-2021. All rights reserved.</p>
+                    <img src="assets/themesberg.svg" alt="themesberg" class="themesberg">
+                    <p class="pb-4">Copyright &copy; Themesberg 2019-2021. All rights reserved.</p>
                 </div>
 
             </div>

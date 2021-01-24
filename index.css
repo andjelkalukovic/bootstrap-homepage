@@ -1,7 +1,96 @@
-body {
+html, body {
     font-family: 'Spartan', sans-serif;
+    color: #183b56 !important;
+    font-size: 1rem;
 }
 
 [class*="col-"] {
     padding: 1rem;
+}
+
+
+/* Buttons */
+#my-btn {
+    background-color: #183b56;
+    color: white;
+}
+
+#my-btn:hover {
+    background-color: rgb(17, 18, 19);
+}
+
+
+/* Icons */
+.fa-money-bill-wave,
+.fa-map-marked-alt,
+.fa-shopping-basket {
+    color: #418b78;
+    font-size: 3em;
+    margin: 1rem;
+}
+
+.features {
+    color: #183b56;
+    font-size: 5em;
+    margin: 1.2rem;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-facebook {
+    color: #43609C;
+}
+
+.fa-github {
+    color:black;
+}
+
+.fa-dribbble {
+    color: #ea4c89;
+}
+
+.social {
+    margin: 0.3rem;
+}
+
+.social:hover {
+    color: #d5d5d5;
+}
+
+
+/* Navbar */
+.navbar-brand img {
+    height: 2.5rem;
+}
+
+.navbar {
+    font-size: 1.15rem;
+    font-weight: 400;
+    letter-spacing: .1rem;
+}
+
+.nav-item {
+    padding: .5rem;
+}
+
+
+/*Download app */
+#download-app {
+    background-color: #eff1f5;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+
+/* Footer */
+.themesberg {
+    height: 25px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+input {
+    display: block;
 }
