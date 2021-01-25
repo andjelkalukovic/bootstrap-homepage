@@ -32,9 +32,19 @@ html, body {
 
 
 /* Buttons */
+#btn-menu-2 {
+    background-color: #fc6363;
+    color: white;
+}
+
+#btn-menu-2:hover {
+    background-color: #e44a4a;
+}
 #my-btn {
     background-color: #183b56;
     color: white;
+    margin-right: 1rem;
+    border-radius: .5rem;
 }
 
 #my-btn:hover {
@@ -83,7 +93,8 @@ html, body {
 }
 
 .social {
-    margin: 0.3rem;
+    margin-right: .8rem;
+    font-size: 1.5rem;
 }
 
 .social:hover {
@@ -117,12 +128,13 @@ html, body {
 
 
 /* Footer */
-.themesberg {
-    height: 25px;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
 input {
     display: block;
+    border-radius: .4rem;
+    padding: 0.45rem!important;
+    border-color: rgba(163, 163, 163, 0.897);
+}
+
+.themesberg {
+    height: 25px;
 }

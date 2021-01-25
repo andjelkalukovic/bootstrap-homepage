@@ -27,11 +27,11 @@
     <nav class="navbar navbar-light navbar-expand-lg">
         <div class="container">
             <a href="index.html" class="navbar-brand"><img src="assets/dark.svg" alt="dark" title="Logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-responsive">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbar-responsive">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                     <li class="nav-item"><a href="index.html" class="nav-link active">About</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Testimonials</a></li>
@@ -40,13 +40,14 @@
                 </ul>
             </div>
 
-            <!-- <div class="navbar-buttons">
-                <a href="#" class="btn">Free Download</a>
-                <a href="#" class="btn">Upgrade to Pro <i class="fas fa-rocket"></i></a>
-            </div> -->
+            <div class="navbar-buttons d-flex">
+                <a href="#" class="btn btn-outline-secondary">Free Download</a>
+                <a href="#" class="btn" id="btn-menu-2">Upgrade to Pro <i class="fas fa-rocket"></i></a>
+            </div> 
         </div>
-
     </nav>
+
+
 
     <!--Simple & Reliable-->
     <div class="container py-5">
@@ -61,7 +62,7 @@
             </div>
 
             <div class="row container d-flex justify-content-center">
-                <div class="template-demo mt-2"> <button class="btn btn-icon-text" id="my-btn">
+                <div class="mt-2"> <button class="btn btn-icon-text" id="my-btn">
                         <i class="fab fa-apple btn-icon-prepend fa-2x mx-2"></i>
                         <span class="d-inline-block text-left"> <small class="fw-light d-block">Available
                                 on</small> App Store </span> </button>
@@ -409,13 +410,13 @@
         <div class="container">
             <div class="row row-grid align-items-center justify-content-between">
                 <div class="col-12 col-lg-5">
-                    <p class="lead">Download App</p>
+                    <p class="lead mb-0">Download App</p>
                     <h2 class="mb-3">Get started in seconds</h2>
                     <p class="lead my-3">Quickly connect to tools and services such as Google Analytics, Intercom or
                         Github to track,
                         measure and optimize performance.</p>
 
-                    <div class="template-demo mt-2"> <button class="btn btn-icon-text" id="my-btn">
+                    <div class="mt-4"> <button class="btn btn-icon-text" id="my-btn">
                             <i class="fab fa-apple btn-icon-prepend fa-2x pr-5"></i>
                             <span class="d-inline-block text-left"> <small class="fw-light d-block">Available
                                     on</small> App Store </span> </button>
@@ -436,22 +437,21 @@
 
     <!--Footer-->
     <footer>
-        <div class="container pt-5">
-            <div class="row">
+        <div class="container py-5 pt-lg-6">
+            <div class="row justify-content-between mb-5 mb-lg-0">
                 <div class="col-md-4">
                     <p>Swipe is a beautiful and free one page Bootstrap 5 Template created to showcase
-                        your awesome
-                        mobile app.</p>
-                    <div class="social">
-                        <a href="#"><i class="fab fa-twitter fa-1.8x social"></i></a>
-                        <a href="#"><i class="fab fa-facebook fa-1.8x social"></i></a>
-                        <a href="#"><i class="fab fa-github fa-1.8x social"></i></a>
-                        <a href="#"><i class="fab fa-dribbble fa-1.8x social"></i></a>
+                        your awesome mobile app.</p>
+                    <div class="col">
+                        <a href="#"><i class="fab fa-twitter social"></i></a>
+                        <a href="#"><i class="fab fa-facebook social"></i></a>
+                        <a href="#"><i class="fab fa-github social"></i></a>
+                        <a href="#"><i class="fab fa-dribbble social"></i></a>
                     </div>
                 </div>
 
-                <div class="col-md-4">
-                    <h5>Themesberg</h5>
+                <div class="col-6 col-md-2">
+                    <h5 class="mb-3">Themesberg</h5>
                     <p>Blog</p>
                     <p>Products</p>
                     <p>About Us</p>
@@ -459,19 +459,21 @@
                 </div>
 
                 <div class="col-md-4">
-                    <h5>Subscribe</h5>
-                    <input type="email" placeholder="example@company.com" class="col-12">
-                    <a href="#" class="btn col-12" id="my-btn">Subscribe</a>
+                    <h5 class="mb-3">Subscribe</h5>
+                    <form action="#">
+                        <input type="email" placeholder="example@company.com" class="col-12 mb-2 border-solid">
+                        <a href="#" class="btn col-12 mb-2" id="my-btn">Subscribe</a>
+                    </form>
                     <p>No spam. Pinky swear.</p>
                 </div>
+            </div>
+
 
                 <div class="col-12 text-center">
                     <hr>
-                    <img src="assets/themesberg.svg" alt="themesberg" class="themesberg">
-                    <p class="pb-4">Copyright &copy; Themesberg 2019-2021. All rights reserved.</p>
+                    <img src="assets/themesberg.svg" alt="themesberg" class="themesberg mt-3 mb-2">
+                    <p class="pb-0">Copyright &copy; Themesberg 2019-2021. All rights reserved.</p>
                 </div>
-
-            </div>
         </div>
     </footer>
 
