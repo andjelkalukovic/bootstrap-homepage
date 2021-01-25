@@ -16,7 +16,7 @@
 
     <!-- Google Font Spartan-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@200&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/a34088c9b7.js" crossorigin="anonymous"></script>
@@ -51,25 +51,34 @@
     <!--Simple & Reliable-->
     <div class="container py-5">
         <div class="row justify-content-center text-center">
-            <div class="col-12 mb-md-7">
+            <div class="col-12 mb-7">
                 <h1 class="fw-bold mb-3 display-3">Simple & Reliable.</h1>
             </div>
-            <div class="col-lg-8 col-sm-12">
-                <p class="lead">Simpler remembers your important details, so you can fill carts, not forms. And
+            <div class="col-lg-8 col-sm-12 mb-4">
+                <p class="lead" id="main-paragraph">Simpler remembers your important details, so you can fill carts, not
+                    forms. And
                     everything is ecrypted so you can speed safely through checkout.</p>
             </div>
-            <div class="col-12">
-                <a href="#" class="btn" id="my-btn"><i class="fab fa-apple fa-2x mx-2"></i><span>Available on App
-                        Store</span></a>
-                <a href="#" class="btn" id="my-btn"><i class="fab fa-google-play fa-2x mx-2"></i><span>Available on
-                        Google Play</span></a>
+
+            <div class="row container d-flex justify-content-center">
+                <div class="template-demo mt-2"> <button class="btn btn-icon-text" id="my-btn">
+                        <i class="fab fa-apple btn-icon-prepend fa-2x mx-2"></i>
+                        <span class="d-inline-block text-left"> <small class="fw-light d-block">Available
+                                on</small> App Store </span> </button>
+
+                    <button class="btn btn-icon-text" id="my-btn">
+                        <i class="fab fa-google-play btn-icon-prepend fa-2x mx-2"></i>
+                        <span class="d-inline-block text-left"> <small class="fw-light d-block">Available
+                                on</small>
+                            Google Play </span> </button>
+                </div>
             </div>
         </div>
     </div>
 
     <!--Baner-->
-    <div class="container col-12 col-md-10 justify-content-center py-5">
-        <img src="assets/scene.svg" alt="scene" class="img-responsive">
+    <div class="container col-12 col-md-10 text-center py-5">
+        <img src="assets/scene.svg" alt="scene" class="img-responsive scene">
     </div>
 
     <!--Pay icons-->
@@ -78,41 +87,44 @@
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <i class="fas fa-money-bill-wave"></i>
                 <h3>Pay better</h3>
-                <p>Speed through checkout and offset delivery at the same time.</p>
+                <p class="py-2 px-4">Speed through checkout and offset delivery at the same time.</p>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <i class="fas fa-map-marked-alt"></i>
                 <h3>Track better</h3>
-                <p>Get real-time delivery updates from cart to home in one place.</p>
+                <p class="py-2 px-4">Get real-time delivery updates from cart to home in one place.</p>
             </div>
 
             <div class="col-sm-12 col-md-4">
                 <i class="fas fa-shopping-basket"></i>
                 <h3>Shop better</h3>
-                <p>Upgrade with personal settings from your favorite stores.</p>
+                <p class="py-2 px-4">Upgrade with personal settings from your favorite stores.</p>
             </div>
         </div>
     </div>
 
     <!--Better way-->
     <div class="container py-5">
-        <div class="row text-center">
+        <div class="row justify-content-center text-center">
             <div class="col-12">
-                <h1 class="display-4">Better in every way</h1>
+                <h2 class="display-5" id="my-header">Better in every way</h2>
             </div>
-            <div class="col-12">
-                <p>Self-Service Analytics or ad hoc reporting gives users the ability to develop rapid reports,
-                    empowering users to analyze their data.</p>
+        </div>
+
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-8 col-sm-12">
+                <p class="lead" id="main-paragraph">Self-Service Analytics or ad hoc reporting gives users the ability
+                    to develop rapid reports, empowering users to analyze their data.</p>
             </div>
         </div>
     </div>
 
     <!--Thoughtful way-->
     <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-6">
-                <h2>A thoughtful way to pay</h2>
+        <div class="row row-grid align-items-center justify-content-between">
+            <div class="col-12 col-lg-5">
+                <h2 class="mb-4">A thoughtful way to pay</h2>
                 <p>Simpler App remembers your important details, so you can fill carts, not forms. And everything is
                     ecrypted so you can speed safely throgh checkout.</p>
                 <p>Now, you can offset the carbon emissions produced by your deliveries-for free. All you have to do is
@@ -121,7 +133,7 @@
                 <a href="#" class="btn" id="my-btn">Learn More <i class="fas fa-external-link-alt"></i></a>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-12 col-lg-6 ml-lg-auto">
                 <img src="assets/scene-3.svg" alt="scene3" class="img">
             </div>
         </div>
@@ -129,14 +141,13 @@
 
     <!--Get it-->
     <div class="container py-5">
-        <div class="row">
-            <div class="col-lg-6">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-12 col-lg-6 mr-lg-auto">
                 <img src="assets/scene-2.svg" alt="scene2" class="img">
             </div>
 
-            <div class="col-lg-6">
-                <h2>Get it. Don't sweat it.</h2>
-                <br>
+            <div class="col-12 col-lg-5 ml-lg-auto">
+                <h2 class="mb-4">Get it. Don't sweat it.</h2>
                 <p>We Track your desktop and mobile keyword rankings from any location and plot your full ranking
                     history on a handy graph.</p>
                 <p>You can set up automated ranking reports to be sent to your email address, so you'll never forget to
@@ -147,26 +158,26 @@
         </div>
     </div>
 
-    <!--Numbers-->
+    <!-- Cards -->
     <div class="container py-5">
-        <div class="row py-5">
-            <div class="col-md-4">
-                <div class="card">
-                    <h4 class="card-title">98%</h4>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-solid p-4">
+                    <h4 class="card-title mb-2">98%</h4>
                     <p class="card-text">Average satisfaction rating received in the past year.</p>
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <h4 class="card-title">24/7</h4>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-solid p-4">
+                    <h4 class="card-title mb-2">24/7</h4>
                     <p class="card-text">Our support team is a quick chat or email away.</p>
                 </div>
             </div>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <h4 class="card-title">220k+</h4>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card border-solid p-4">
+                    <h4 class="card-title mb-2">220k+</h4>
                     <p class="card-text">Extension installs from the two major mobile app stores.</p>
                 </div>
             </div>
@@ -176,10 +187,12 @@
     <!--Features-->
     <div class="container py-5">
         <div class="row text-center">
-            <div class="col-12">
-                <h5>We're proudly featured by</h5>
+            <div class="col">
+                <p>We're proudly featured by</p>
             </div>
-            <div class="col-lg-12">
+        </div>
+        <div class="row text-center">
+            <div class="col">
                 <i class="fab fa-stripe features"></i>
                 <i class="fab fa-digg features"></i>
                 <i class="fab fa-fedex features"></i>
@@ -187,58 +200,190 @@
                 <i class="fab fa-d-and-d-beyond features"></i>
                 <i class="fab fa-angrycreative features"></i>
             </div>
-
         </div>
+    </div>
     </div>
 
     <!--Customers text-->
     <div class="container py-5">
-        <div class="row text-center">
+        <div class="row justify-content-center text-center">
             <div class="col-12">
-                <h1 class="display-4">Customers love it</h1>
+                <h2 class="display-5" id="my-header">Customers love it</h2>
             </div>
-            <div class="col-12">
-                <p>The final result of our formula at work. Check out what our clients have to say about our mobile app
+        </div>
+
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-8 col-sm-12">
+                <p class="lead" id="main-paragraph">The final result of our formula at work. Check out what our clients
+                    have to say about our mobile app
                     and our support team.</p>
             </div>
         </div>
     </div>
 
     <!--Customers stories-->
-    <!--FAQ-->
-    <div class="container py-5" id="faq">
-        <div class="row text-center">
-            <div class="col-12">
-                <h1 class="display-4">Fact & Questions</h1>
+    <div class="container py-5">
+        <div class="row mt-lg-6">
+            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                <div class="card border-solid text-center py-5">
+                    <img src="assets/airbnb.svg" alt="airbnb" title="airbnb"
+                        class="image-sm customers-img mx-auto mb-3">
+                    <span class="d-blok">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </span>
+                    <p class="card-text px-3 my-4">Swipe has replaced the whiteboard for us! Being able to jump in the
+                        same file
+                        with someone fills the gap of not being able to gather in person.</p>
+                    <a href="#" class="btn text-black"><i class="fas fa-book-open"></i><span class="fw-bolder">Read
+                            story</span></a>
+                </div>
             </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                <div class="card border-solid text-center py-5" id="top-customer-card">
+                    <img src="assets/corsair.svg" alt="airbnb" title="corsair"
+                        class="image-sm customers-img mx-auto mb-3">
+                    <span class="d-blok">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </span>
+                    <p class="card-text px-3 my-4">Swipe has replaced the whiteboard for us! Being able to jump
+                        in the same file
+                        with someone fills the gap of not being able to gather in person.</p>
+                    <a href="#" class="btn text-black"><i class="fas fa-book-open"></i><span class="fw-bolder">Read
+                            story</span></a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                <div class="card border-solid text-center py-5">
+                    <img src="assets/paypal.svg" alt="airbnb" title="paypal"
+                        class="image-sm customers-img mx-auto mb-3">
+                    <span class="d-blok">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </span>
+                    <p class="card-text px-3 my-4">Swipe has replaced the whiteboard for us! Being able
+                        to jump in the same file
+                        with someone fills the gap of not being able to gather in person.</p>
+                    <a href="#" class="btn text-black"><span class="fas fa-book-open"></span><span
+                            class="fw-bolder">Read
+                            story</span></a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                <div class="card border-solid text-center py-5">
+                    <img src="assets/ebay.svg" alt="airbnb" title="ebay" class="image-sm customers-img mx-auto mb-3">
+                    <span class="d-blok">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </span>
+                    <p class="card-text px-3 my-4">Swipe has replaced the whiteboard for us! Being able to jump in the
+                        same file
+                        with someone fills the gap of not being able to gather in person.</p>
+                    <a href="#" class="btn text-black"><i class="fas fa-book-open"></i><span class="fw-bolder">Read
+                            story</span></a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                <div class="card border-solid text-center py-5" id="top-customer-card">
+                    <img src="assets/northwestern.svg" alt="airbnb" title="northwestern"
+                        class="image-sm customers-img mx-auto mb-3">
+                    <span class="d-blok">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </span>
+                    <p class="card-text px-3 my-4">Swipe has replaced the whiteboard for us! Being able to jump
+                        in the same file
+                        with someone fills the gap of not being able to gather in person.</p>
+                    <a href="#" class="btn text-black"><i class="fas fa-book-open"></i><span class="fw-bolder">Read
+                            story</span></a>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                <div class="card border-solid text-center py-5">
+                    <img src="assets/elastic.svg" alt="airbnb" title="elastic"
+                        class="image-sm customers-img mx-auto mb-3">
+                    <span class="d-blok">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </span>
+                    <p class="card-text px-3 my-4">Swipe has replaced the whiteboard for us! Being able to jump in the
+                        same file
+                        with someone fills the gap of not being able to gather in person.</p>
+                    <a href="#" class="btn text-black"><i class="fas fa-book-open"></i><span class="fw-bolder">Read
+                            story</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--FAQ-->
+    <div class="container py-5">
+        <div class="row justify-content-center text-center">
             <div class="col-12">
-                <p>Have a question? Read through our FAQ below. If you can't find an answer, please email our support
+                <h2 class="display-5" id="my-header">Fact & Questions</h2>
+            </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+            <div class="col-lg-8 col-sm-12">
+                <p class="lead" id="main-paragraph">Have a question? Read through our FAQ below. If you
+                    can't find an
+                    answer, please email our support
                     team. We're here to help.</p>
             </div>
         </div>
     </div>
 
     <!--Download app-->
-    <div class="container-fluid py-5" id="download-app">
+    <div class="container-fluid py-5 bg-light">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h5>Download App</h5>
-                    <h2>Get started in seconds</h2>
-                    <p>Quickly connect to tools and services such as Google Analytics, Intercom or Github to track,
-                        measure
-                        and optimize performance.</p>
-                    <br>
+            <div class="row row-grid align-items-center justify-content-between">
+                <div class="col-12 col-lg-5">
+                    <p class="lead">Download App</p>
+                    <h2 class="mb-3">Get started in seconds</h2>
+                    <p class="lead my-3">Quickly connect to tools and services such as Google Analytics, Intercom or
+                        Github to track,
+                        measure and optimize performance.</p>
 
-                    <div class="col-12">
-                        <a href="#" class="btn" id="my-btn"><i class="fab fa-apple"></i>Available on App Store</a>
-                        <a href="#" class="btn" id="my-btn"><i class="fab fa-google-play"></i>Available on Google
-                            Play</a>
+                    <div class="template-demo mt-2"> <button class="btn btn-icon-text" id="my-btn">
+                            <i class="fab fa-apple btn-icon-prepend fa-2x pr-5"></i>
+                            <span class="d-inline-block text-left"> <small class="fw-light d-block">Available
+                                    on</small> App Store </span> </button>
+
+                        <button class="btn btn-icon-text" id="my-btn">
+                            <i class="fab fa-google-play btn-icon-prepend fa-2x pr-5"></i>
+                            <span class="d-inline-block text-left"> <small class="fw-light d-block">Available
+                                    on</small>
+                                Google Play </span> </button>
                     </div>
                 </div>
 
-                <div class="col-lg-6">
-                    <img src="assets/scene-3.svg" alt="scene3">
+                <div class="col-12 col-lg-6 ml-lg-auto">
+                    <img src="assets/scene-3.svg" alt="scene3" class="img">
                 </div>
             </div>
         </div>
@@ -249,7 +394,8 @@
         <div class="container pt-5">
             <div class="row">
                 <div class="col-md-4">
-                    <p>Swipe is a beautiful and free one page Bootstrap 5 Template created to showcase your awesome
+                    <p>Swipe is a beautiful and free one page Bootstrap 5 Template created to showcase
+                        your awesome
                         mobile app.</p>
                     <div class="social">
                         <a href="#"><i class="fab fa-twitter fa-1.8x social"></i></a>

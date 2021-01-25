@@ -1,11 +1,29 @@
 html, body {
     font-family: 'Spartan', sans-serif;
     color: #183b56 !important;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 [class*="col-"] {
     padding: 1rem;
+}
+
+/* Typography */
+#main-paragraph {
+    font-weight: 400;
+}
+
+#my-header {
+    font-weight: 450;
+}
+
+.card-title {
+    font-size: 3.5rem;
+    font-weight: 480;
+}
+
+#top-customer-card {
+    margin-top: -5rem;
 }
 
 
@@ -33,6 +51,15 @@ html, body {
     color: #183b56;
     font-size: 5em;
     margin: 1.2rem;
+}
+
+.fa-star {
+    color: rgb(255, 200, 20);
+}
+
+.fa-book-open {
+    margin-right: .5rem;
+
 }
 
 .fa-twitter {
@@ -75,12 +102,13 @@ html, body {
     padding: .5rem;
 }
 
+/* Image */
+.scene {
+    width: 80%;
+}
 
-/*Download app */
-#download-app {
-    background-color: #eff1f5;
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+.customers-img {
+    height: 3rem;
 }
 
 
