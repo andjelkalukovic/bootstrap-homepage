@@ -17,6 +17,10 @@ html, body {
     font-weight: 450;
 }
 
+#faq-paragraph {
+    font-weight: 500;
+}
+
 .card-title {
     font-size: 3.5rem;
     font-weight: 480;
