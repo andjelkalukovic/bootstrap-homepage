@@ -26,10 +26,6 @@ html, body {
     font-weight: 480;
 }
 
-#top-customer-card {
-    margin-top: -5rem;
-}
-
 
 /* Buttons */
 #btn-menu-2 {
@@ -40,6 +36,7 @@ html, body {
 #btn-menu-2:hover {
     background-color: #e44a4a;
 }
+
 #my-btn {
     background-color: #183b56;
     color: white;
@@ -51,8 +48,18 @@ html, body {
     background-color: rgb(17, 18, 19);
 }
 
+.btn-downloadd {
+    display: flex!important;
+    align-items: center;
+}
+
 
 /* Icons */
+.fa-apple,
+.fa-google-play {
+    padding-right: .8rem;
+}
+
 .fa-money-bill-wave,
 .fa-map-marked-alt,
 .fa-shopping-basket {
@@ -118,10 +125,6 @@ html, body {
 }
 
 /* Image */
-.scene {
-    width: 80%;
-}
-
 .customers-img {
     height: 3rem;
 }
@@ -137,4 +140,22 @@ input {
 
 .themesberg {
     height: 25px;
+}
+
+@media (min-width: 992px) {
+    #top-customer-card {
+        margin-top: -5rem;
+    }
+}
+
+@media (min-width: 501px) {
+    .btns-dowl-section {
+        display: flex!important;
+    }
+}
+
+@media (max-width: 500px) {
+    .btns-dowl-section {
+        display: contents!important;
+    }
 }
