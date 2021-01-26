@@ -156,6 +156,6 @@ input {
 
 @media (max-width: 500px) {
     .btns-dowl-section {
-        display: contents!important;
+        display: grid!important;
     }
 }
