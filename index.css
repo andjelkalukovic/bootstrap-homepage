@@ -142,6 +142,21 @@ input {
     height: 25px;
 }
 
+.accordion .card-header:after {
+    font-family: "FontAwesome";
+    content: "\f00d";
+    float: right;
+    color: #183b56;
+}
+
+.accordion .card-header.collapsed:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    float: right;
+    color: #183b56;
+}
+
+
 @media (min-width: 992px) {
     #top-customer-card {
         margin-top: -5rem;
