@@ -142,6 +142,11 @@ input {
     height: 25px;
 }
 
+#footer-themesberg a {
+    text-decoration: none;
+    color: #183b56;
+}
+
 .accordion .card-header:after {
     font-family: "FontAwesome";
     content: "\f00d";
